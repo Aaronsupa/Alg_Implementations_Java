@@ -1,19 +1,6 @@
-/*
- * Student information for assignment: 
- * On my honor, Aaron Johnson, this programming assignment is my own work 
- * and I have not provided this code to any other student. 
- * UTEID:awj483
- * email address: awj483@utexas.edu
- * Number of slip days I am using: 0 
- */
-
  import java.util.Iterator;
 
  public class LinkedList<E> implements IList<E> {
-     // CS314 students. Add you instance variables here.
-     // You decide what instance variables to use.
-     // Must adhere to assignment requirements. 
-     // No ArrayLists or Java LinkedLists.
      private DoubleListNode<E> first;
      private DoubleListNode<E> last;
      private int size;
