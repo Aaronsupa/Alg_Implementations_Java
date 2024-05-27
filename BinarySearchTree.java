@@ -1,16 +1,3 @@
-/* CS 314 STUDENTS: FILL IN THIS HEADER.
- *
- * Student information for assignment:
- *
- *  On my honor, Aaron Johnson, this programming assignment is my own work
- *  and I have not provided this code to any other student.
- *
- *  UTEID: awj483
- *  email address: awjohnson2023@gmail.com
- *  TA name: Eliza
- *  Number of slip days I am using: 0 
- */
-
  import java.util.ArrayList;
  import java.util.List;
 
@@ -25,9 +12,7 @@
  public class BinarySearchTree<E extends Comparable<? super E>> {
  
      private BSTNode<E> root;
-     // CS314 students. Add any other instance variables you want here
      private int size;
-     // CS314 students. Add a default constructor here if you feel it is necessary.
      public BinarySearchTree() {
         root = null;
         size = 0;
